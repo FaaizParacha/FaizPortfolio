@@ -2,6 +2,33 @@
 # Custom overrides — modern polish on top of the iPortfolio theme
 --------------------------------------------------------------*/
 
+/* Hero — download resume button */
+.hero-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 28px;
+  padding: 10px 28px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #149ddd, #23b2e8);
+  box-shadow: 0 8px 22px rgba(20, 157, 221, 0.35);
+  transition: all 0.3s ease;
+}
+
+.hero-resume-btn i {
+  font-size: 18px;
+}
+
+.hero-resume-btn:hover {
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(20, 157, 221, 0.5);
+}
+
 /* Section title accent */
 .section-title h2::after {
   width: 60px;
