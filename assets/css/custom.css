@@ -242,3 +242,13 @@
   border-color: #149ddd;
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Portfolio — uniform card sizes
+--------------------------------------------------------------*/
+.portfolio .portfolio-wrap > img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 8px;
+}
